@@ -1,0 +1,18 @@
+h1{
+    color:red;
+
+}
+span{
+    font-weight: bold;
+}
+#dolor-word{
+    font-weight: normal;
+}
+.main-text{
+    color:green;
+}
+form{
+    width: 600px;
+    margin: auto;
+    border: solid 1px black;
+}

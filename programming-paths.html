@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Programmēšanas tehniķa karjeras ceļi</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7dd3fc;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#e6eef6;background:linear-gradient(180deg,#071024 0%, #071526 60%);}
+    .wrap{max-width:1000px;margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    header{display:flex;align-items:center;gap:16px}
+    h1{font-size:1.6rem;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{background:var(--card);border-radius:10px;padding:14px;border:1px solid rgba(255,255,255,0.03);backdrop-filter:blur(4px)}
+    .role{display:flex;gap:12px;align-items:flex-start}
+    .role svg{flex:0 0 44px;height:44px}
+    h2{margin:0 0 6px;font-size:1.05rem}
+    .skills{color:var(--muted);font-size:0.9rem;margin:6px 0}
+    .path{font-size:0.88rem;background:var(--glass);padding:8px;border-radius:8px;color:#d7eefc}
+    footer{margin-top:18px;color:var(--muted);font-size:0.85rem}
+    .tag{display:inline-block;background:rgba(125,211,252,0.08);color:var(--accent);padding:4px 8px;border-radius:999px;font-size:0.78rem;margin-right:6px}
+    @media (max-width:520px){.wrap{margin:12px;padding:16px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="3" width="20" height="18" rx="2" stroke="currentColor" stroke-opacity="0.15"/><path d="M8 7h8M8 11h8M8 15h5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.5"/></svg>
+      <div>
+        <h1>Programmēšanas tehniķa karjeras ceļi</h1>
+        <p class="lead">Sarindo dažādas tehniķa lomas IT nozarē, īss apraksts, nepieciešamās prasmes un ieteicamais apmācību ceļš.</p>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Saraksts ar profesijām">
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16v10H4z" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Front-end tehniķis (web)</h2>
+            <div class="skills"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <p class="path">Veido un uztur lietotāja saskarnes — mājaslapas, SPA, UI komponentus. Iegūsti prasmes: HTML+CSS, responsīvais dizains, JavaScript, populāri rīki (React/Vue/Angular), tīkla prasības un pārlūkpraktika.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3z" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Back-end tehniķis</h2>
+            <div class="skills"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">Datubāzes</span></div>
+            <p class="path">Izstrādā servera puses loģiku, API un datu pārvaldību. Ieteicams apgūt serveru arhitektūru, REST/GraphQL, SQL, drošību un konteinerizāciju (Docker).</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.2"/><path d="M6 21v-1a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v1" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Full‑stack tehniķis</h2>
+            <div class="skills"><span class="tag">Front‑end</span><span class="tag">Back‑end</span><span class="tag">DevOps</span></div>
+            <p class="path">Apvieno front‑end un back‑end prasmes. Labs variants tehnikumam — plašs pārskats par modernu izstrādi un darba plūsmām.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 12h18M12 3v18" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>DevOps / CI/CD tehniķis</h2>
+            <div class="skills"><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Jenkins</span></div>
+            <p class="path">Automatizē izvietošanu, uzrauga infrastruktūru un skriptē. Ieteicams iemācīties Linux administrēšanu, CI/CD, konteineru orķestrāciju un mākoņu pamatus.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Mobilās lietotnes tehniķis</h2>
+            <div class="skills"><span class="tag">Android</span><span class="tag">iOS</span><span class="tag">React Native</span></div>
+            <p class="path">Izstrādā un testē mobilās lietotnes. Var specializēties Android (Kotlin/Java), iOS (Swift) vai hibrīdās platformas (Flutter/React Native).</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="10" rx="1" stroke="currentColor" stroke-width="1.2"/><path d="M6 17h12" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Iebūvēto sistēmu (embedded) tehniķis</h2>
+            <div class="skills"><span class="tag">C/C++</span><span class="tag">RTOS</span><span class="tag">Elektronika</span></div>
+            <p class="path">Strādā ar mikrokontrolleriem un ierīču programmatūru. Praktiski projekti ar Raspberry Pi/Arduino, zema līmeņa programmēšana un aparatūra.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Testēšanas un QA automatizācijas tehniķis</h2>
+            <div class="skills"><span class="tag">Selenium</span><span class="tag">Cypress</span><span class="tag">Unit Tests</span></div>
+            <p class="path">Veido automatizētus testus, testē produkta kvalitāti un uztur testu infrastruktūru. Zināšanas par testu rāmisēm un CI integrāciju ir svarīgas.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 7h18v10H3z" stroke="currentColor" stroke-width="1.2"/><path d="M8 11h8" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Datubāzu administrators / datu tehniķis</h2>
+            <div class="skills"><span class="tag">SQL</span><span class="tag">Backup</span><span class="tag">Optim</span></div>
+            <p class="path">Pārvalda datubāzes, veic optimizāciju un rezerves kopēšanu. Iegūst zināšanas par SQL, NoSQL, replikāciju un datu aizsardzību.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v6l4 2" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Drošības (InfoSec) tehniķis</h2>
+            <div class="skills"><span class="tag">PenTest</span><span class="tag">Hardening</span><span class="tag">SIEM</span></div>
+            <p class="path">Atklāj ievainojamības, veic sistēmu nostiprināšanu un notikumu uzraudzību. Praktiska pieredze ar tīklu, piekļuves kontroli un kriptogrāfiju ir svarīga.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Spēļu izstrādes tehniķis</h2>
+            <div class="skills"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Grafika</span></div>
+            <p class="path">Strādā pie spēļu mehānikas, prototipiem un veiktspējas optimizācijas. Ieteicams spēļu dzinēji, fizikas un grafikas pamati.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18v12H3z" stroke="currentColor" stroke-width="1.2"/></svg>
+          <div>
+            <h2>Datu inženieris / ETL tehniķis</h2>
+            <div class="skills"><span class="tag">ETL</span><span class="tag">Python</span><span class="tag">Spark</span></div>
+            <p class="path">Veido datu plūsmas, apstrādā lielapjoma datus un gatavo datus analīzei. Iegūst prasmes datu modeļos, transformācijās un datu noliktavās.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="role">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z" stroke="currentColor" stroke-width="1.1"/></svg>
+          <div>
+            <h2>IoT un mākoņu tehnoloģiju tehniķis</h2>
+            <div class="skills"><span class="tag">MQTT</span><span class="tag">Cloud</span><span class="tag">Sensors</span></div>
+            <p class="path">Savieno ierīces ar mākoni, pārvalda sensora datus un drošību. Bieži nepieciešama zināšana par iebūvētajām sistēmām un mākoņu servisiem.</p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <div>Padomi: sākt ar vienu ceļu, izveidot portfeli (GitHub) un dara mazi projektus. Ja vēlaties, varu izveidot arī PDF/Drukājamu versiju vai personalizētu mācību kursos secību.</div>
+    </footer>
+  </main>
+</body>
+</html>
